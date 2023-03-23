@@ -29,7 +29,7 @@
                 error at blanditiis expedita corporis est animi.</p>
         </section>
         <section class="sectionForm">
-            <form>
+            <form id="form">
                 <section class="formVendedor formBlock">
                     <div>
                         <label class="formTitle ">
@@ -44,7 +44,7 @@
                                 </label>
                             </div>
                             <div class="inputContent">
-                                <input id="fullName" />
+                                <input type="texto" id="fullName" autocomplete="off" required />
                             </div>
                         </div>
                         <div class="inputComponent inputFlex1">
@@ -54,7 +54,7 @@
                                 </label>
                             </div>
                             <div class="inputContent">
-                                <input id="rutVendedor" />
+                                <input  type="texto" id="rut" autocomplete="off" required />
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                                 </label>
                             </div>
                             <div class="inputContent">
-                                <input id="Patente"/>
+                                <input  type="texto" id="patente" autocomplete="off" required/>
                             </div>
                         </div>
                         <div class="inputComponent inputFlex1">
@@ -84,7 +84,7 @@
                                 </label>
                             </div>
                             <div class="inputContent">
-                                <select id="marca">
+                                <select id="marca" >
                                     <option value="Nissan">Nissan</option>
                                     <option value="Kia">Kia</option>
                                     <option value="Toyota">Toyota</option>
@@ -124,9 +124,9 @@
                 </section>
             </form>
         </section>
-        <div class="btnSendForm">
+        <div class="btnSendForm btnName">
             <div>
-                <button  type="button" onclick=""></button>
+                <button  type="submit" id="btnEnviar" onclick="">Enviar</button>
             </div>
         </div>
     </section>

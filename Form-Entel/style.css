@@ -143,7 +143,17 @@ body {
     background: #FF3D00;
     border-radius: 22.5px;
     margin-top: 40px;
-    margin-left: auto;
+    margin-left:650px;
+}
+
+.btnName {
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-inline: ;
 }
 
 .tableTitle {
