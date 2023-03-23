@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Form Entel</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header class="header">
+        <div class="headerWrapper container">
+            <div>
+                <img class="logo" src="./assets/logo.png">
+            </div>
+            <nav>
+                <a class="link" href="./index.html">Formulario</a>
+                <a class="link" href="./list.html">Lista de Formulario</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container content">
+        <section>
+            <h1 class="title">Nuevo formulario</h1>
+            <p class="description"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis at cupiditate,
+                voluptatibus illo inventore quidem! Suscipit, obcaecati delectus! Inventore, culpa a quidem dolorum
+                error at blanditiis expedita corporis est animi.</p>
+        </section>
+        <section class="sectionForm">
+            <form>
+                <section class="formVendedor formBlock">
+                    <div>
+                        <label class="formTitle ">
+                            Datos del vendedor:
+                        </label>
+                    </div>
+                    <div class="formArea">
+                        <div class="inputComponent  inputFlex1 inputFullName">
+                            <div class="inputTitle">
+                                <label>
+                                    Nombre y apellido
+                                </label>
+                            </div>
+                            <div class="inputContent">
+                                <input id="fullName" />
+                            </div>
+                        </div>
+                        <div class="inputComponent inputFlex1">
+                            <div class="inputTitle">
+                                <label>
+                                    Rut Vendedor
+                                </label>
+                            </div>
+                            <div class="inputContent">
+                                <input id="rutVendedor" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="formVehiculo formBlock">
+                    <div>
+                        <label class="formTitle">
+                            Datos del vehículo:
+                        </label>
+                    </div>
+                    <div class="formArea">
+                        <div class="inputComponent inputFlex1 ">
+                            <div class="inputTitle">
+                                <label>
+                                    Patente vehículo
+                                </label>
+                            </div>
+                            <div class="inputContent">
+                                <input id="Patente"/>
+                            </div>
+                        </div>
+                        <div class="inputComponent inputFlex1">
+                            <div class="inputTitle">
+                                <label>
+                                    Marca vehículo
+                                </label>
+                            </div>
+                            <div class="inputContent">
+                                <select id="marca">
+                                    <option value="Nissan">Nissan</option>
+                                    <option value="Kia">Kia</option>
+                                    <option value="Toyota">Toyota</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="inputComponent inputFlex1">
+                            <div class="inputTitle">
+                                <label>
+                                    Modelo vehículo
+                                </label>
+                            </div>
+                            <div class="inputContent">
+                                <select id="modelo">
+                                    <option value="March">March</option>
+                                    <option value="Morning">Morning</option>
+                                    <option value="Hilux">Hilux</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="inputComponent inputFlex1">
+                            <div class="inputTitle">
+                                <label>
+                                    Color vehículo
+                                </label>
+                            </div>
+                            <div class="inputContent">
+                                <select id="modelo">
+                                    <option value="Verde">Verde</option>
+                                    <option value="gris">Gris</option>
+                                    <option value="Blanco">Blanco</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+            </form>
+        </section>
+        <div class="btnSendForm">
+            <div>
+                <button  type="button" onclick=""></button>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
