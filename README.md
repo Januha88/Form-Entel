@@ -1,7 +1,7 @@
 # Form-Entel
 * [1. Resúmen del Proyecto]
 * [2. Interfaz]
-* [3. Quiénes son los usuarios y los objetivos en relación con el producto]
+* [3. Vista Responsive]
 
 ## 1. Resúmen del Proyecto
 
